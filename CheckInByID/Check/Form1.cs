@@ -63,6 +63,7 @@ namespace 预约签到
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             Dictionary<string,object> dict = new Dictionary<string, object>();
             dict.Add("method", methodName);
             dict.Add("CodeType", methodCodeType);
